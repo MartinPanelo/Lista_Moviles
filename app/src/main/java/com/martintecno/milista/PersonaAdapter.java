@@ -49,4 +49,9 @@ public class PersonaAdapter extends ArrayAdapter<Persona> {
 
         return itemView;
     }
+
+    @Override
+    public int getCount() {
+        return listadoPersonas.size();
+    }
 }
